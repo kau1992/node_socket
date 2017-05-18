@@ -5,20 +5,10 @@
   "scripts": {
     "start": "node app.js"
   },
-  "repository": {
-    "url": "git+https://github.com/kau1992/node_socket.git",
-    "type": "git"
-  },
   "author": "kaushik sutariya<kau.sutariya@gmail.com>",
-  "homepage": "https://github.com/kau1992/node_socket",
   "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.2",
-    "connect-flash": "^0.1.1",
     "express": "^4.14.0",
-    "express-session": "^1.14.0",
     "socket.io": "^1.4.8",
-    "socket.io-redis": "^4.0.0",
-    "winston": "^2.2.0"
   }
 }
