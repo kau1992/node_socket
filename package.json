@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Real Time Chat Application built using Node.js and Socket.io",
   "scripts": {
-    "start": "npm start"
+    "start": "node app.js"
   },
   "repository": {
     "url": "git+https://github.com/kau1992/node_socket.git",
