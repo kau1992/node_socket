@@ -1,0 +1,26 @@
+<!-- index.html -->
+<html ng-app="myApp">
+
+<head>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular.js"></script>
+    <script src="assets/js/angular-route.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+    <script type="text/javascript" src="./js/dashboard.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="container">
+                <div id="main">
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+    </header>    
+    </body>
+</html>

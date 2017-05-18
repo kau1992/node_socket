@@ -1,0 +1,29 @@
+
+    <div class="container clearfix">
+      <div class="chat">
+        <div class="chat-header clearfix">
+         <!--  <img src="<%= user.picture %>" alt="avatar">  -->
+          <div class="chat-about">
+            <img src="/assets/img/user.jpg" alt="avatar">
+            <div class="chat-num-users" style='float: left;'> </div> <span style='margin: 15px; float: left; font-size: 24px;'>{{user}}</span>
+          </div>
+          <i class="fa fa-users"></i>
+        </div> <!-- end chat-header -->
+        
+      </div> 
+
+      <div class="controls">
+          <a ng-click="logout()" class="logout-btn">Logout</a>
+      </div>
+
+      <div class="users-list">
+     
+        <table style="color: #EEEEF9;    margin-left: 63px;    font-size: 20px;">
+          <tr ng-repeat="(key, val) in activeUsr">
+            <td style="padding: 10px 45px 10px 5px;"><span class="circle">&nbsp;</span>{{key}}</td><td style="padding: 10px 5px 10px 5px;">{{val}} &nbsp; Second</td>
+          </tr>
+        </table>
+      </div>
+    
+  <!--   <script>$(function(){app.chat('1', 'user1')});</script> -->
+</div>
